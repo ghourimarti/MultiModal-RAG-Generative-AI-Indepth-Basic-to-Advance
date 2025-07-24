@@ -10,8 +10,8 @@ https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-p
 curl -Ls https://astral.sh/uv/install.sh | sh
 # ===============================================================
 # install uv
-python -m venv llmopss
-source llmopss/Scripts/activate
+python -m venv .multimodal_rag
+source .multimodal_rag/Scripts/activate
 
 pip install --upgrade pip
 pip install -r requirements.txt
